@@ -28,7 +28,7 @@ El backend está construido con Express y Puppeteer. Proporciona una API que per
    \`\`\`bash
    npm start
    \`\`\`
-El servidor estará disponible en http://localhost:5000.
+El servidor estará disponible en http://localhost:3001.
 
 ## Endpoints de la API
 
@@ -74,7 +74,7 @@ Para ejecutar las pruebas unitarias:
 Para probar el endpoint del backend, usa el siguiente comando curl:
 
 \`\`\`bash
-curl -X POST http://localhost:5000/api/screenshot \
+curl -X POST http://localhost:3001/api/screenshot \
      -H "Content-Type: application/json" \
      -d '{
            "url": "https://example.com",
@@ -94,7 +94,7 @@ El frontend está desarrollado con Electron y proporciona una interfaz de usuari
 
 - Node.js v14 o superior
 - npm v6 o superior
-- El backend debe estar ejecutándose en http://localhost:5000
+- El backend debe estar ejecutándose en http://localhost:3001
 
 ## Instalación y Ejecución
 
