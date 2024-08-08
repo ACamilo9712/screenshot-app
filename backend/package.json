@@ -1,0 +1,23 @@
+{
+  "name": "backend-screenshot-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/server.js"
+  },
+  "author": "andres hoyos",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "cors": "^2.8.5",
+    "electron": "^31.3.1",
+    "express": "^4.19.2",
+    "puppeteer": "^23.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "mocha": "^10.2.0"
+  }
+}

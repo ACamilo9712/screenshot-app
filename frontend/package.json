@@ -1,0 +1,16 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "electron frontend",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andres hoyos",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^25.0.0",
+    "axios": "^1.3.5"
+  }
+}
